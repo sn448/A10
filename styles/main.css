@@ -1,10 +1,22 @@
 /* the styles for the elements */
+html {
+	background-color: white;
+}
+
+/* the styles for the body */
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
+	width: 600px;
+	margin: 0px auto 0px auto;
+	border: solid 3px #931420;
+	background-color: #fffded;
 }
 
 /* the styles for the header */
+header {
+	border-bottom: solid 3px #931420;
+}
 header img {
 	float: left;
 }
@@ -27,6 +39,8 @@ main {
 }
 main h1 {
 	font-size: 150%;
+	border-top: solid 3px #931420;
+	border-bottom: solid 3px #931420;
 }
 main h2 {
 	font-size: 130%;
@@ -41,4 +55,6 @@ main a:hover {
 /* the styles for the footer */
 footer p {
 	text-align: center;
+	background-color: #931420;
+	color: white;
 }
